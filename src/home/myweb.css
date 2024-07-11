@@ -1,0 +1,116 @@
+.section1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../public/images/header.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.section2{
+    padding: 70px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.s2{
+    width: 70%;
+    flex-wrap: inherit;
+}
+.section2-img{
+flex: 1 1 200px;
+max-width: 100%;
+height: auto;
+max-height: 80%;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.section2-content{
+flex: 1 1 200px;
+}
+.section2-content>h2{
+font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
+font-family: ' Baloo Paaji', cursive;
+color: #695aa6;
+}
+p{
+font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+font-family: "Open Sans", sans-serif;
+ font-weight: 100;
+  opacity: 1;
+  color: #525252;
+  letter-spacing: .6px;
+  line-height: 1.5rem;
+}
+
+.sub-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 1 200px;
+    height: 100%;
+    width: 100%;
+    max-height: 80%;
+}
+
+.hero-text {
+    font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
+    margin-bottom: 5px;
+    font-family: ' Baloo Paaji', cursive;
+}
+
+.hero-text-up {
+    font-weight: 500;
+    color: #444;
+}
+
+.hero-text-down {
+    font-weight: bold;
+    color: #44474e;
+}
+
+.sub-hero-text {
+    font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
+    letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+}
+
+.buttons {
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.button {
+    border: .2mm solid #586b95;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    color: aliceblue;
+    background-color: #586b95;
+}
+
+.hero-content {
+    z-index: 2 !important;
+}
+.info{
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+    font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1300 - 300)));
+    letter-spacing: calc(1px + (2 - 1) * ((100vw - 300px) / (1300 - 300)));
+    font-family: "Open Sans", sans-serif;
+    line-height: 5px
+}
+.info-head{
+    color: #695aa6;
+}
+.info-tail{
+    color: #525252;
+}
